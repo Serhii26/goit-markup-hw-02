@@ -10,12 +10,14 @@
     --changes-color: #2196F3;
 }
 body {
-    background-color: #FFFFFF;
-    color:var(--main-color);
+     background-color: #FFFFFF;
+     color:var(--main-color);
      font-family: Roboto,sans-serif;
+     font-size: 14px;
      font-weight: 400;
      font-style: normal;
      line-height: 1.71;
+     letter-spacing: 3%;
     }
     a {
         color: inherit; 
@@ -26,8 +28,10 @@ body {
     .logo {
         color: #FFFFFF;
         font-family: Raleway,sans-serif;
+        font-size: 26px;
         font-weight: 700;
         line-height: 1.19;
+        letter-spacing: 3%;
     }
     .studio {
         color:var(--main-color);
@@ -41,21 +45,28 @@ body {
   h1 {
     color: #FFFFFF;
     font-family:Roboto, sans-serif ;
+    font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
+    letter-spacing: 6%;
+    text-align: center;
+    
   }
   button{
     background-color:var(--changes-color);
     color: #FFFFFF;
     font-family: Roboto,sans-serif;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
+    letter-spacing: 6%;
     border: none;
   }
  a {
     text-decoration: none;
  }
  .nav-button {
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
  }
@@ -74,23 +85,32 @@ body {
        background-color: #188CE8;
     }
     .title {
+        font-size: 14px;
         font-weight: 700;
-        line-height: 1.14 
+        line-height: 1.14;
+        letter-spacing: 3%;
     }
     .work {
         background-color: #F5F4FA;
     }
     .title-work {
+        font-size: 36px;
         font-weight: 700;
-        line-height: 1.16
+        line-height: 1.16;
+        /* letter-spacing: 3%; */
+        text-align: center;
     }
     .img-work {
+        font-size: 16px;
         font-weight: 500;
-        line-height: 1.9
+        line-height: 1.9;
+        /* letter-spacing: 3%; */
     }
     .paragraph {
         color: var(--paragraph-color);
+        font-size: 16px;
         line-height: 1.9;
+        /* letter-spacing: 3%; */
     }
     .footer {
         background-color: #2F303A;
@@ -111,9 +131,17 @@ body {
     .footer-button.connect:focus{
         color:var(--changes-color);
     }
+    .img-portfolio {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.9;
+        /* letter-spacing: 6%; */
+    }
     .portfolio-button{
         color:var(--main-color);
         background-color: #F5F4FA;
+        font-weight: 500;
+        /* letter-spacing: 3%;  */
 
     }
     .portfolio-button:hover,
@@ -122,10 +150,7 @@ body {
         color:#FFFFFF ;
     }
     .portfolio-button,.pointer {cursor: pointer;}; 
-    .portfolio-img {
-        line-height: 2;
-    }
-  
+    
   
 
    
